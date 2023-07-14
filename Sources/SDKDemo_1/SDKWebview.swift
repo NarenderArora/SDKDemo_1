@@ -19,6 +19,10 @@ public class SDKWebView: WKWebView {
     required init?(coder: NSCoder) {
         super.init(coder: coder)
     }
+    
+    public func getUsername() -> String {
+        "SDKdemo tested"
+    }
 
     @discardableResult
     public func load() -> WKNavigation? {
