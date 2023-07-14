@@ -9,7 +9,7 @@ import Foundation
 import WebKit
 
 public class SDKWebView: WKWebView {
-    //comment
+    //comment done
     public init() {
         let webConfiguration = WKWebViewConfiguration()
         webConfiguration.preferences.javaScriptEnabled = true
