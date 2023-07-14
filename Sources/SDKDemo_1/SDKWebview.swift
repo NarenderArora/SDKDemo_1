@@ -20,6 +20,7 @@ public class SDKWebView: WKWebView {
         super.init(coder: coder)
     }
     
+    @discardableResult
     public func getUsername() -> String {
         "SDKdemo tested"
     }
